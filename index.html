@@ -8,6 +8,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet">
+        <script src="index.js"></script>
     </head>
     <body>
         <div class="container">
@@ -23,13 +24,22 @@
                     </div>
                     <nav>
                         <ul class="menu">
-                            <li><a href="#">Features</a></li>
+                            <li class="dropdown">
+                                <a href="#">Features</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Heatmaps</a></li>
+                                    <li><a href="#">Scroll-maps</a></li>
+                                    <li><a href="#">Screen Recordings</a></li>
+                                    <li><a href="#">CRO Education Center</a></li>
+                                    <li><a href="#">GDPR Compliance</a></li>
+                                </ul>
+                            </li>
                             <li><a href="#">Pricing</a></li>
                             <li><a href="#">Case Studies</a></li>
                             <li><a href="#">Blog</a></li>
                         </ul>
                     </nav>
-                    <div>
+                    <div class="right-side-options">
                         <button>Start Free Trial</button>
                         <a href="#">Login</a>
                     </div>
@@ -51,12 +61,11 @@
                     </div>
                     <div class="right-container">
                         <div class="brownie">
-                            <img src=""/>
-                            <img/>
+                            <img class="rect-a" src="./assets/images/rect-a.png">
+                            <img class="rect-b" src="./assets/images/rect-b.png">
                         </div>
                     </div>
                 </div>
-
             </main>
         </div>
        
