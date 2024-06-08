@@ -5,36 +5,60 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Heatmap.com</title>
         <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <div>
-                <img>
-                <p>HeatMap.com</p>
-                <nav>
-                    <ul class="menu">
-                        <li><a href="#">Features</a></li>
-                        <li><a href="#">Pricing</a></li>
-                        <li><a href="#">Case Studies</a></li>
-                        <li><a href="#">Blog</a></li>
-                    </ul>
-                </nav>
-                <button>Start Free Trial</button>
-                <a href="#">Login</a>
-            </div>
-        </header>
-        <main>
-            <div>
-                <button><img> Trusted by 1,000+ Brands</button>
-                <p>Heatmaps that show Revenue, not just clicks</p>
-                <p>Find out what generates revenue on your website with Revenue-Based HeatMaps. Boost your revenue in 30 days or less with Heatmap.com, no CRO expertise needed. Watch 2-3 videos in our CRO Education Center to make meaningful website and revenue improvements.</p>
-                <button> Get Started - it's free -> </button>
-                <button><img> Watch a Demo</button>
-            </div>
-            <div>
-                <img/>
-                <img/>
-            </div>
-        </main>
+        <div class="container">
+            <header class="header-content">
+                <div class="menu-items">
+                    <div>
+                        <div class="menu-button">
+                            <img src="./assets/svgs/menu.svg" alt="Menu">
+                        </div>
+                        <div class="logo">
+                            <img src="./assets/images/logo.png" alt="Heatmap.com">
+                        </div>
+                    </div>
+                    <nav>
+                        <ul class="menu">
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Case Studies</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </nav>
+                    <div>
+                        <button>Start Free Trial</button>
+                        <a href="#">Login</a>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <div class="main-content">
+                    <div class="left-container">
+                        <div class="trusted-brands">
+                            <span><img src="./assets/svgs/stars.svg"></span>
+                            <span>Trusted by 1,000+ Brands</span>
+                        </div>
+                        <h1>Heatmaps that <br> show Revenue, not <br> just clicks</h1>
+                        <p>Find out what generates revenue on your website with Revenue- <br>Based HeatMaps. <strong> Boost your revenue in 30 days</strong> or less with <br> Heatmap.com, <strong> no CRO expertise needed.</strong> Watch 2-3 videos in <br> our CRO Education Center to make meaningful website and <br> revenue improvements.</p>
+                        <div class="button-container">
+                            <a class="get-started"><span> Get Started - It's Free </span><img src="./assets/svgs/arrow.svg"> </a>
+                            <a class="watch-demo"><img src="./assets/svgs/play.svg"><span>Watch a Demo</span></a>
+                        </div>
+                    </div>
+                    <div class="right-container">
+                        <div class="brownie">
+                            <img src=""/>
+                            <img/>
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+        </div>
+       
     </body>
 </html>
