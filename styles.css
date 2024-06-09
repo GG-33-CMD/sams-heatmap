@@ -8,12 +8,21 @@
 
 /* fonts */
 @font-face {
-    font-family: 'Circular-Std';
-    src: url('/assets/fonts/CircularStd-Book.ttf') format('truetype');
+    font-family: "Circular-Std";
+    src: url('assets/fonts/CircularStd-Book.eot');
+    src: url('assets/fonts/CircularStd-Book.eot') format('embedded-opentype'),
+         url('assets/fonts/CircularStd-Book.woff2') format('woff2'),
+         url('assets/fonts/CircularStd-Book.woff') format('woff'),
+         url('assets/fonts/CircularStd-Book.ttf') format('truetype');
 }
+
 @font-face {
-    font-family: 'Circular-Std-Bold';
-    src: url('/assets/fonts/CircularStd-Bold.ttf') format('truetype');
+    font-family: "Circular-Std-Bold";
+    src: url('assets/fonts/CircularStd-Bold.eot');
+    src: url('assets/fonts/CircularStd-Bold.eot') format('embedded-opentype'),
+         url('assets/fonts/CircularStd-Bold.woff2') format('woff2'),
+         url('assets/fonts/CircularStd-Bold.woff') format('woff'),
+         url('assets/fonts/CircularStd-Bold.ttf') format('truetype');
 }
 
 /* Basic Styles */
