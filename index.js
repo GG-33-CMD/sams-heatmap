@@ -1,3 +1,10 @@
+const menuToggleBurger = document.querySelector('.burger-menu');
+const element = document.querySelector('.nav-links');
+
+menuToggleBurger.addEventListener('click', ()=> {
+    element.classList.toggle('active');
+});
+
 document.addEventListener('DOMContentLoaded', function() {
     var dropdown = document.querySelector('.dropdown');
     var menuButton = document.getElementById('menu-button');
