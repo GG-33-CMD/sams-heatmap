@@ -132,11 +132,8 @@ button:hover {
     transition: color 0.3s;
 }
 
-.nav-links a:hover {
 
-}
-
-/* .dropdown-menu {
+.dropdown-menu {
     display: none;
     position: absolute;
     min-width: 160px;
@@ -144,9 +141,7 @@ button:hover {
     padding: 10px 0;
     padding-top: 1rem;
     font-size: 16px;
-    border-radius: 20px;
-    background-color: green;
-} */
+}
 
 .close-menu {
     display: none;
@@ -157,8 +152,8 @@ button:hover {
     flex-direction: column;
     background-color: white;
     /* box-shadow: 0px 6px 12px 0px rgba(26, 40, 53, 0.05); */
-    /* border: 1.73px solid rgba(219, 219, 219, 1); */
-    border-radius: 20px;
+    border: 1.73px solid rgba(219, 219, 219, 1);
+    border-radius: 10px;
     align-items: start;
     width: 209px;
     padding: 10px 0;
@@ -359,7 +354,7 @@ main {
     z-index: 1000;
     list-style: none;
     padding: 0;
-    border-radius: 20px;
+    border-radius: 10px;
     margin: 0;
     min-width: 100px;
 }
