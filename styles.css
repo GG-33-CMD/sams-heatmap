@@ -133,10 +133,10 @@ button:hover {
 }
 
 .nav-links a:hover {
-    color: green;
+
 }
 
-.dropdown-menu {
+/* .dropdown-menu {
     display: none;
     position: absolute;
     min-width: 160px;
@@ -144,7 +144,9 @@ button:hover {
     padding: 10px 0;
     padding-top: 1rem;
     font-size: 16px;
-}
+    border-radius: 20px;
+    background-color: green;
+} */
 
 .close-menu {
     display: none;
@@ -154,18 +156,19 @@ button:hover {
     display: flex;
     flex-direction: column;
     background-color: white;
-    box-shadow: 0px 6px 12px 0px rgba(26, 40, 53, 0.05);
+    /* box-shadow: 0px 6px 12px 0px rgba(26, 40, 53, 0.05); */
     /* border: 1.73px solid rgba(219, 219, 219, 1); */
-    border-radius: 10px;
+    border-radius: 20px;
     align-items: start;
     width: 209px;
     padding: 10px 0;
 }
 
 .dropdown-menu-links a {
-    padding: 15px 20px;
+    padding: 15px 15px;
     width: 100%;
     display: flex;
+    font-size: 16px;
     text-align: left;
 }
 
@@ -351,11 +354,12 @@ main {
     top: 100%;
     left: 0;
     background-color: white;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
     border: 1px solid #ddd;
     z-index: 1000;
     list-style: none;
     padding: 0;
+    border-radius: 20px;
     margin: 0;
     min-width: 100px;
 }
@@ -370,8 +374,8 @@ main {
     display: block;
 }
 
-.dropdown-menu li:hover {
-    background-color: #f2f2f2;
+.dropdown-menu-links a:hover {
+    background: rgba(176, 246, 194, 1);
 }
 
 .dropdown:hover .dropdown-menu {
